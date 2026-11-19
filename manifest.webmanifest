@@ -1,9 +1,17 @@
 {
   "name": "Mon comparateur de courses",
-  "short_name": "Comparateur",
+  "short_name": "Mon comparateur",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#f5f8f5",
   "theme_color": "#176b45",
-  "description": "Compare le total de ton panier dans six enseignes."
+  "description": "Comparez le total de vos courses",
+  "icons": [
+    {
+      "src": "./panier-192(2).png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
 }
